@@ -146,7 +146,7 @@ h3 {
 }
 
 .technology {
-    margin-right: 5vh;
+    margin-right: 30px;
     margin-top: 10px;
     font-size:48px;
 }
@@ -163,7 +163,7 @@ h3 {
 #more p { display: inline-block }
 
 .more-logo {
-    margin-right: 5vh;
+    margin-right: 30px;
     margin-top: 10px;
     width: 50px;
     display: inline-block
