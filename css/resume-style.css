@@ -101,7 +101,7 @@ ul ul a {
 #content {
     margin-left: 250px;
     transition: all 0.3s;
-    margin-right: 10vh;
+    margin-right: 4vh;
 }
 
 #chevron, #menu {
@@ -123,7 +123,7 @@ ul ul a {
     background-repeat: no-repeat;
     background-color: black;
     height: 240px;
-    width: 135%;
+    width: 120%;
 }
 
 .info {
