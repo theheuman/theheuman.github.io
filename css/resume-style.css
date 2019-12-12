@@ -101,7 +101,6 @@ ul ul a {
 #content {
     margin-left: 250px;
     transition: all 0.3s;
-    margin-right: 4vh;
 }
 
 #chevron, #menu {
@@ -123,7 +122,6 @@ ul ul a {
     background-repeat: no-repeat;
     background-color: black;
     height: 240px;
-    width: 120%;
 }
 
 .info {
@@ -132,6 +130,15 @@ ul ul a {
     height: 60vh;
     margin-left: 30px;
     display:inline-block;
+    margin-right: 5vh;
+}
+
+.info > * {
+    margin-right: inherit;
+}
+
+h3 {
+    margin-right: inherit;
 }
 
 .spacer {
@@ -139,9 +146,9 @@ ul ul a {
 }
 
 .technology {
+    margin-right: 5vh;
     margin-top: 10px;
     font-size:48px;
-    margin-right: 10vh;
 }
 
 .experience {
@@ -156,6 +163,7 @@ ul ul a {
 #more p { display: inline-block }
 
 .more-logo {
+    margin-right: 5vh;
     margin-top: 10px;
     width: 50px;
     display: inline-block
