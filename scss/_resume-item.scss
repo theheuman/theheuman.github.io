@@ -1,0 +1,41 @@
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  .resume-item {
+    .resume-content {}
+    .resume-date {
+      min-width: none;
+    }
+  }
+}
+
+#logo {
+  background-image: url("/img/logo_no_padding_200.png") !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  height: 240px;
+  width: 100%;
+  background: $primary;
+}
+
+.more-logo {
+    width: 45px;
+    margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+    .resume-item {
+      .resume-date {
+        min-width: 18rem;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
