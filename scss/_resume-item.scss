@@ -10,6 +10,10 @@ section.resume-section {
   }
 }
 
+.less-padding-top {
+    padding-top: 3rem !important;
+}
+
 #logo {
   background-image: url("/img/logo_no_padding_200.png") !important;
   background-position: center top !important;
@@ -23,15 +27,17 @@ section.resume-section {
     width: 45px;
     margin-bottom: 10px;
 }
+
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 80vh;
     .resume-item {
       .resume-date {
         min-width: 18rem;
       }
     }
   }
+
 }
 @media (min-width: 992px) {
   section.resume-section {
