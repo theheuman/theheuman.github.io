@@ -3,7 +3,7 @@ I have created this website with the help of a template from [Start Bootstrap - 
 
 ## Preview
 
-[![Resume Preview](https://theheuman.github.io/img/website-preview.png)](https://blackrockdigital.github.io/startbootstrap-resume/)
+[![Resume Preview](https://theheuman.github.io/img/website-preview.png)](https://theheuman.github.io/index.html)
 
 **[View Live](https://theheuman.github.io/index.html)**
 
