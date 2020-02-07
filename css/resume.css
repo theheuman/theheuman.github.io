@@ -161,6 +161,10 @@ section.resume-section .resume-item .resume-date {
   margin-bottom: 10px;
 }
 
+.icon-bg-secondary {
+  background: #00ABF9 !important;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 80vh;

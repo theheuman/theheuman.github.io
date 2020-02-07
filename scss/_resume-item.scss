@@ -28,6 +28,10 @@ section.resume-section {
     margin-bottom: 10px;
 }
 
+.icon-bg-secondary {
+  background: $secondary !important;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 80vh;
