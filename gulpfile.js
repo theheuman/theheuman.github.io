@@ -44,7 +44,7 @@ function browserSyncReload(done) {
 
 // Clean vendor
 function clean() {
-  return true;
+  return del(["./vendor/"]);
 }
 
 // Bring third party dependencies from node_modules into vendor directory
@@ -67,7 +67,9 @@ function modules() {
       '!./node_modules/jquery/dist/core.js'
     ])
     .pipe(gulp.dest('./vendor/jquery'));
-  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing);
+  var mfizz = gulp.src('./node_modules/mfizz/*')
+    .pipe(gulp.dest('./vendor/font-mfizz-2.4.1'));
+  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing, mfizz);
 }
 
 // CSS task
