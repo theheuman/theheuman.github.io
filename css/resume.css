@@ -126,8 +126,9 @@ section.resume-section {
   padding-bottom: 5rem !important;
   max-width: 75rem;
 }
-section.resume-section .resume-item .resume-date {
-  min-width: none;
+section.resume-section .mfizz {
+  font-size: 30px;
+  margin-right: 0;
 }
 
 .less-padding-top {
