@@ -60,7 +60,7 @@ function modules() {
     ])
     .pipe(gulp.dest('./vendor/jquery'))
   const mfizz = gulp
-    .src('./node_modules/mfizz/*')
+    .src('./font-mfizz-2.4.1/*')
     .pipe(gulp.dest('./vendor/font-mfizz-2.4.1'))
   return merge(
     bootstrap,
