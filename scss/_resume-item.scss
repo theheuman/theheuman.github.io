@@ -3,7 +3,8 @@ section.resume-section {
   padding-bottom: 5rem !important;
   max-width: 75rem;
   .resume-item {
-    .resume-content {}
+    .resume-content {
+    }
     .resume-date {
       min-width: none;
     }
@@ -11,11 +12,11 @@ section.resume-section {
 }
 
 .less-padding-top {
-    padding-top: 3rem !important;
+  padding-top: 3rem !important;
 }
 
 #logo {
-  background-image: url("/img/logo_no_padding_200.png") !important;
+  background-image: url('/img/logo_no_padding_200.png') !important;
   background-position: center top !important;
   background-repeat: no-repeat !important;
   height: 240px;
@@ -24,8 +25,8 @@ section.resume-section {
 }
 
 .more-logo {
-    width: 45px;
-    margin-bottom: 10px;
+  width: 45px;
+  margin-bottom: 10px;
 }
 
 .icon-bg-secondary {
@@ -34,14 +35,13 @@ section.resume-section {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 80vh;
+    min-height: 30vh;
     .resume-item {
       .resume-date {
         min-width: 18rem;
       }
     }
   }
-
 }
 @media (min-width: 992px) {
   section.resume-section {
