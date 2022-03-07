@@ -118,6 +118,7 @@ function js() {
 function watchFiles() {
   gulp.watch('./scss/**/*', css)
   gulp.watch(['./js/**/*', '!./js/**/*.min.js'], js)
+  gulp.watch('./img/**/*', browserSyncReload)
   gulp.watch('./**/*.html', browserSyncReload)
 }
 

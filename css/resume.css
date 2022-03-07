@@ -121,11 +121,13 @@ p.lead {
     display: block;
   }
 }
-p, .light-gray {
+p,
+.light-gray {
   color: #646464;
 }
 
-h2, h1 {
+h2,
+h1 {
   -webkit-text-stroke: 1px black;
 }
 
@@ -147,7 +149,8 @@ section.resume-section .mfizz {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 20px;
 }
-#experience .w-100 .text-secondary, #experience .w-100 .resume-item {
+#experience .w-100 .text-secondary,
+#experience .w-100 .resume-item {
   padding-left: 3rem !important;
   padding-right: 3em !important;
 }
