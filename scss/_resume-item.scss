@@ -1,12 +1,44 @@
+p,
+.light-gray {
+  color: rgb(100, 100, 100);
+}
+
+h2,
+h1 {
+  -webkit-text-stroke: 1px black;
+}
+
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
-  .resume-item {
-  }
   .mfizz {
     font-size: 30px;
     margin-right: 0;
+  }
+}
+
+#experience {
+  padding-left: 0 !important;
+
+  .w-100 {
+    .resume-item:nth-child(even) {
+      background-color: rgb(240, 240, 240);
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 20px;
+    }
+
+    .text-secondary,
+    .resume-item {
+      padding-left: 3rem !important;
+      padding-right: 3em !important;
+    }
+
+    .resume-item {
+      .sub-p {
+        margin-left: 1rem;
+      }
+    }
   }
 }
 
@@ -18,9 +50,9 @@ section.resume-section {
   background-image: url('/img/logo_no_padding_200.png') !important;
   background-position: center top !important;
   background-repeat: no-repeat !important;
+  background-color: $primary;
   height: 240px;
   width: 100%;
-  background: $primary;
 }
 
 .more-logo {
