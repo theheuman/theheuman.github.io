@@ -121,13 +121,41 @@ p.lead {
     display: block;
   }
 }
+p,
+.light-gray {
+  color: #646464;
+}
+
+h2,
+h1 {
+  -webkit-text-stroke: 1px black;
+}
+
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
 }
-section.resume-section .resume-item .resume-date {
-  min-width: none;
+section.resume-section .mfizz {
+  font-size: 30px;
+  margin-right: 0;
+}
+
+#experience {
+  padding-left: 0 !important;
+}
+#experience .w-100 .resume-item:nth-child(even) {
+  background-color: #f0f0f0;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 20px;
+}
+#experience .w-100 .text-secondary,
+#experience .w-100 .resume-item {
+  padding-left: 3rem !important;
+  padding-right: 3em !important;
+}
+#experience .w-100 .resume-item .sub-p {
+  margin-left: 1rem;
 }
 
 .less-padding-top {
@@ -138,9 +166,9 @@ section.resume-section .resume-item .resume-date {
   background-image: url("/img/logo_no_padding_200.png") !important;
   background-position: center top !important;
   background-repeat: no-repeat !important;
+  background-color: #000;
   height: 240px;
   width: 100%;
-  background: #000;
 }
 
 .more-logo {
